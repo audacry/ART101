@@ -1,0 +1,41 @@
+body {
+    background: #3d3a4a;
+    padding: 50px;
+}
+
+h1 {
+    color: rgb(70, 58, 103);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(215, 217, 241);
+    padding: 50px;
+    margin: 100px;
+    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0, 0, 0, 0)
+}
+
+h2,
+h3 {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    color: azure;
+    font-family: fantasy;
+}
+
+ul {
+    color: azure;
+    font-family: fantasy;
+}
+
+A {
+    color: rgb(153, 249, 249);
+}
+
+A:hover {
+    color: rgb(217, 240, 248);
+}
+
+img {
+    width: 30%;
+}

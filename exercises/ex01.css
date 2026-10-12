@@ -1,0 +1,42 @@
+HTML {background-color: rgb(191, 212, 229)}
+
+A {color:rgb(0, 198, 198);}
+A:hover {color:aqua}
+
+IMG:hover {rotate: 18rad}
+
+UL {
+    color: rgb(152, 145, 168);
+}
+
+h1 {
+    background-color: rgb(167, 164, 225);
+    color: rgb(255, 255, 255);
+    font-weight: bold
+}
+
+H2 {
+    color: rgb(123, 120, 182);
+}
+
+IMG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.highlight_01 {background-color: rgb(203, 242, 202);}
+.highlight_01 strong {color:black; background-color:rgb(242, 246, 31); font-size:xx-large}
+
+.highlight_01:hover {background-color:blueviolet}
+.highlight_01 strong:hover {background-color:blue}
+
+#main { background-color:rgb(225, 235, 235); padding:50px; margin:100px;
+box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+#gallery { background-color: rgb(225, 235, 235);
+box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+display:flex; flex-wrap:wrap; column-gap:20px; row-gap:20px; margin-top: 80px; margin-bottom: 40px;
+}
+#gallery IMG {width:50%; height:30%}
