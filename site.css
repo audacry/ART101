@@ -1,31 +1,34 @@
 body {
-    background: #3d3a4a;
+    background: #37345d;
     padding: 50px;
 }
 
+
+
 h1 {
     color: rgb(70, 58, 103);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: monospace;
     background-color: rgb(215, 217, 241);
     padding: 50px;
     margin: 100px;
-    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0, 0, 0, 0)
+    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 10px 25px rgba(0,0,0,0);
+    border-radius: 12px;
 }
 
 h2,
 h3 {
     color: aliceblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: monospace;
 }
 
 p {
     color: azure;
-    font-family: fantasy;
+    font-family:monospace
 }
 
 ul {
     color: azure;
-    font-family: fantasy;
+    font-family: monospace;
 }
 
 A {
@@ -37,5 +40,92 @@ A:hover {
 }
 
 img {
-    width: 30%;
+    width: 80%;
+    box-shadow: 5px 5px 0px 0px #9b28ed, 10px 10px 0px 0px #b05eeb, 15px 15px 0px 0px #b386d3, 20px 20px 0px 0px #c0a7d2, 25px 25px 0px 0px #dacee3, 5px 5px 10px 25px rgba(0,0,0,0);
+    margin-bottom: 20px;
+}
+
+img:hover {
+    transform:skewx(-4deg);
+}
+
+#page {
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+    background:rgb(74, 64, 110);
+    padding: 30px;
+    border-radius:12px;
+}
+
+.top-section {
+    display: flex;
+    gap: 30px;
+    align-items:flex-start;
+    margin: 0 0 25px 0;
+    
+}
+
+.profile {
+    text-align: center;
+    flex: 1;
+}
+
+.profile img {
+    width: 160px;
+    border-bottom-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.profile p {
+    font-size: 90%;
+}
+
+#intro {
+    background:#2f2a48;
+    padding: 20px;
+    border-left: 6px solid #a664bb;
+    border-radius: 12px;
+    flex: 1;
+}
+
+#intro:hover {
+    transform:skewx(-3deg);
+}
+
+#intro h2 {
+    font-style: italic;
+    margin-top: 0;
+}
+
+#intro p {
+    font-size: 120%;
+    line-height: 1.2;
+}
+
+
+#title:hover {
+    transform:skewx(-3deg);
+}
+
+.navigation {
+    background:#a664bb;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 0px 0px #9b28ed, 10px 10px 0px 0px #b05eeb, 15px 15px 0px 0px #b386d3, 20px 20px 0px 0px #c0a7d2, 25px 25px 0px 0px #dacee3, 5px 5px 10px 25px rgba(0,0,0,0);
+}
+
+.navigation h2 {
+    margin-top: 0;
+}
+
+.navigation li {
+    margin-bottom: 8px;
+}
+
+.navigation a {
+    font-weight: bold;
+}
+
+.navigation:hover {
+    transform:skewx(-3deg);
 }
