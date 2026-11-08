@@ -43,22 +43,27 @@ img:hover {
     background-color: rgb(216, 244, 214);
 }
 
+.transformed {
+    transform: scale(1.05);
+}
+
+.rotated {
+    rotate: 180deg;
+}
+
 #spacesuit:hover {
     background-color: rgb(248, 206, 213);
     border-radius: 12px;
-    margin: -20px;
 }
 
 #full-body:hover {
     background-color: rgb(248, 229, 188);
     border-radius: 12px;
-    margin: -20px;
 }
 
 #animated-sprite:hover {
     background-color: rgb(214, 214, 244);
     border-radius: 12px;
-    margin: -20px;
 }
 
 #main {
@@ -113,3 +118,31 @@ img:hover {
 #top-output:hover {
     background-color: rgb(216, 244, 214);
 }
+
+#thought-1 {
+    display: none;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+    text-indent: 6px;
+    margin-left: 40%;
+    border-left: 2px double #090231;
+}
+
+#thought-2 {
+    display: none;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+    text-indent: 6px;
+    margin-left: 40%;
+    border-left: 2px double #090231;
+}
+
+#thought-3 {
+    display: none;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+    text-indent: 6px;
+    margin-left: 40%;
+    border-left: 2px double #090231;
+}
+

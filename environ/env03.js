@@ -80,3 +80,54 @@ $("#girl2-button").click(function () {
     console.log(girl2Message);
 
 });
+
+$("#spacesuit").hover(
+  function () {
+    $("#thought-1").stop(true, true).slideDown(300);
+    $(this).toggleClass("transformed");
+  },
+  function () {
+    $("#thought-1").stop(true, true).slideUp(300);
+    $(this).toggleClass("transformed");
+  }
+);
+
+
+$("#full-body").hover(
+  function () {
+    $("#thought-2").stop(true, true).slideDown(300);
+    $(this).toggleClass("transformed");
+  },
+  function () {
+    $("#thought-2").stop(true, true).slideUp(300);
+    $(this).toggleClass("transformed");
+  }
+);
+
+
+$("#animated-sprite").hover(
+  function () {
+    $("#thought-3").stop(true, true).slideDown(300);
+    $(this).toggleClass("transformed");
+  },
+  function () {
+    $("#thought-3").stop(true, true).slideUp(300);
+    $(this).toggleClass("transformed");
+  }
+);
+
+
+
+$("#spacesuit").click(function () {
+    $(this).toggleClass("rotated");
+})
+
+
+$("#full-body").click(function () {
+    $(this).toggleClass("rotated");
+})
+
+
+$("#animated-sprite").click(function () {
+    $(this).toggleClass("rotated");
+})
