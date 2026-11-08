@@ -1,5 +1,31 @@
 let environmentTitle = "Characters Who May Never Be The Sun";
 
+function askTime([whatTime]) {
+    let userTime = prompt("morning, noon, or night?");
+
+    if (userTime == "morning") {
+        $("#top-output").html("Good morning.");
+    }
+
+    else if (userTime == "noon") {
+        $("#top-output").html("Good afternoon.");
+    }
+    else if (userTime == "night") {
+        $("#top-output").html("Good night.");
+    }
+    else {
+        $("#top-output").html("");
+    }
+}
+
+$("#top-button").click(function () {
+    askTime("morning", "noon", "night");
+
+})
+
+
+
+
 let girl1 = {
     name: "Titania",
     type: "combat portrait",

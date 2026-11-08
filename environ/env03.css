@@ -102,3 +102,14 @@ img:hover {
     transform: skewx(-3deg);
 }
 
+#top-output {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+    text-indent: 6px;
+    margin-left: 40%;
+    border-left: 2px double #090231;
+}
+
+#top-output:hover {
+    background-color: rgb(216, 244, 214);
+}
